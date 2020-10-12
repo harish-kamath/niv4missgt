@@ -45,6 +45,16 @@ line-height: 1.71429;
 
  }
 
+ .mpplink {
+     color: var(--primary-color-1);
+ }
+
+ .mppcontainer:hover {
+     a {
+     color: black;
+ }
+ }
+
  .list-style--2 {
      -webkit-tap-highlight-color: transparent;
 text-align: left;
