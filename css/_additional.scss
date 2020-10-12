@@ -1,0 +1,133 @@
+// Page wrapper
+.page-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  max-width: 100%;
+}
+
+// Content page wrapper
+.content-page-wrapper {
+  position: relative;
+  z-index: 5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  max-width: 100%;
+}
+
+// Background styles
+.bg-attachment-fixed {
+  background-attachment: fixed !important;
+}
+
+.bg-size-cover {
+  background-size: cover !important;
+}
+
+.bg-position-center {
+  background-position: center !important;
+}
+
+// Section Sizes
+.large-section {
+  padding: 100px 0;
+  @media(max-width: $xl) {
+    padding: 50px 0;
+  }
+}
+
+.small-section {
+  padding: 75px 0;
+  @media(max-width: $xl) {
+    padding: 50px 0;
+  }
+}
+
+//Overlays
+.overlay:after {
+  content: ' ';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+// Dark overlay
+.dark-overlay:after {
+  background-color: rgba(0, 0, 0, .85);
+}
+
+// Black overlay
+.black-overlay:after {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+// Gray overlay
+.gray-overlay:after {
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+
+// Swiper hero options
+.swiper-hero, .swiper-hero-type-2 {
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  min-height: 600px;
+  cursor: -webkit-grab;
+  cursor: grab;
+
+  .swiper-slide {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+
+// Z-index : 100
+.z-index-100 {
+  position: relative;
+  z-index: 100;
+}
+
+// Colors
+.white-color {
+  color: var(--white-color-1) !important;
+}
+
+
+.padding-right {
+  padding-right: 75px !important;
+  @media (max-width: $xxl-min) {
+    padding-right: 30px !important;
+  }
+  @media (max-width: $xl) {
+    padding-right: 15px !important;
+  }
+}
+
+.padding-left {
+  padding-left: 75px !important;
+  @media (max-width: $xxl-min) {
+    padding-left: 30px !important;
+  }
+  @media (max-width: $xl) {
+    padding-left: 15px !important;
+  }
+}
