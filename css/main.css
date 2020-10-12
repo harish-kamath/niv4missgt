@@ -45,6 +45,23 @@ line-height: 1.71429;
 
  }
 
+ .list-style--2 {
+     -webkit-tap-highlight-color: transparent;
+text-align: left;
+font-size: 14px;
+-webkit-font-smoothing: antialiased;
+color: var(--white-color-1);
+font-weight: 400;
+box-sizing: border-box;
+list-style: circle;
+margin-left: 0;
+line-height: 1.71429;
+padding-left: 3em;
+ }
+ .minlist {
+     list-style: circle;
+ }
+
  .sptitle {
      color: var(--primary-color-1);
  }
