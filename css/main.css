@@ -29,6 +29,16 @@
      }
  }
 
+ .bcolor {
+     color: white;
+     font-weight: bold;
+ }
+
+ .ccolor {
+     color: var(--primary-color-1);
+     font-weight: bold;
+ }
+
  .list-style--1 {
      -webkit-tap-highlight-color: transparent;
 text-align: left;
